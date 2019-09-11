@@ -1,0 +1,100 @@
+
+/*background*/
+body{
+    background-image:url(train.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*header*/
+header{
+    padding: 80px;
+    text-align:center;
+    color: black;
+}
+header h1{
+    font-size: 40px;
+}
+
+/*navigation bar*/
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #f1f1f1;
+}
+nav a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a.active{
+    background-color: #cfe0e8;
+    color: black;
+}
+nav a:hover:not(.active){
+    background-color: #87bdd8;
+    color: black;
+}
+
+/*aside style*/
+aside {
+
+}
+
+/*section style*/
+section{
+    background: #f1f1f1;
+
+}
+
+/*main section*/
+main{
+    background: #f1f1f1;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 60px;
+}
+
+.left{
+    width: 20%;
+}
+
+.right {
+    width: 15%;
+}
+
+
+.middle {
+    width: 45%;
+}
+
+/* Clear floatsTeam Project Concept Phase after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Table formatting/hoverable */
+table, td, th {
+    text-align: left;
+    border: 1px solid #ddd;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 15px;
+}
+tr:hover{background-color: #daebe8;}
+caption{font-size: large;}
