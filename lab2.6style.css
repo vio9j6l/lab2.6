@@ -12,6 +12,10 @@ header{
     padding: 80px;
     text-align:center;
     color: black;
+
+}
+header div{
+    border: 1px white;
 }
 header h1{
     font-size: 40px;
@@ -58,7 +62,7 @@ main{
     background: #f1f1f1;
 }
 
-/* Create three unequal columns that floats next to each other */
+/* Create three unequal columns that floats next to each other
 .column {
     float: left;
     padding: 60px;
@@ -76,6 +80,7 @@ main{
 .middle {
     width: 45%;
 }
+*/
 
 /* Clear floatsTeam Project Concept Phase after the columns */
 .row:after {
