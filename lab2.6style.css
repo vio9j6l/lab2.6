@@ -1,22 +1,19 @@
-
 /*background*/
 body{
-    background-image:url(train.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    font-family: "Times New Roman", Georgia, serif;
 }
-
+.bottom-left{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: #f0f0f0;
+}
 /*header*/
 header{
-    padding: 80px;
     text-align:center;
     color: black;
+}
 
-}
-header div{
-    border: 1px white;
-}
 header h1{
     font-size: 40px;
 }
@@ -38,11 +35,11 @@ nav a{
 }
 
 nav a.active{
-    background-color: #cfe0e8;
+    background-color: #b4b4b4;
     color: black;
 }
 nav a:hover:not(.active){
-    background-color: #87bdd8;
+    background-color: #787878;
     color: black;
 }
 
@@ -61,26 +58,6 @@ section{
 main{
     background: #f1f1f1;
 }
-
-/* Create three unequal columns that floats next to each other
-.column {
-    float: left;
-    padding: 60px;
-}
-
-.left{
-    width: 20%;
-}
-
-.right {
-    width: 15%;
-}
-
-
-.middle {
-    width: 45%;
-}
-*/
 
 /* Clear floatsTeam Project Concept Phase after the columns */
 .row:after {
@@ -103,3 +80,7 @@ th, td {
 }
 tr:hover{background-color: #daebe8;}
 caption{font-size: large;}
+
+footer {
+    background-color: #f1f1f1;
+}
