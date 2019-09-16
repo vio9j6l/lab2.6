@@ -44,19 +44,23 @@ nav a:hover:not(.active){
 }
 
 /*aside style*/
-aside {
+aside {}
+
+/*about section style*/
+.about{
 
 }
-
-/*section style*/
-section{
-    background: #f1f1f1;
-
+.img{
+    float: left;
+    padding-left: 300px;
 }
-
+ul.text{
+    text-align: center;
+    list-style-type: none;
+}
 /*main section*/
 main{
-    background: #f1f1f1;
+
 }
 
 /* Clear floatsTeam Project Concept Phase after the columns */
